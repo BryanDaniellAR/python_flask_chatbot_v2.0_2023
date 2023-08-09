@@ -12,7 +12,7 @@ def botRoute(app):
             global contador
             userText = request.args.get('msg')
             data = chatbot(userText,contador)
-            contador = data[5]
+            contador = data[1]
             return data[0]
         except:
             return render_template("errorBot.html")
