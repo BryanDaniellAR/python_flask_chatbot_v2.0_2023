@@ -1,0 +1,216 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola",
+                "Hi",
+                "Oye",
+                "Hey",
+                "ola",
+                "saludos"
+            ],
+            "responses": [
+                "Si, estoy aqui. En que puedo hacer por ti?",
+                "Estoy listo para responder tus preguntas. En que puedo colaborar?",
+                "Bienvenido. En que puedo hacer por ti?",
+                "Que puedo hacer por ti en esta ocasion?",
+                "Necesitas asistencia o informacion?",
+                "Hey Estoy aqui para responder tus consultas. En que puedo colaborar?",
+                "Es genial verte, En que puedo hacer que tu dia sea aun mejor?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tienda_ubicacion",
+            "patterns": [
+                "ubica",
+                "Ubicaciones",
+                "ubicacion",
+                "donde estan ubicados?"
+            ],
+            "responses": [
+                "A continuacion, te mostrare nuestras ubicaciones para que puedas encontrarnos: ",
+                "Las ubicaciones de nuestras tiendas son las siguientes:"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tienda_productos",
+            "patterns": [
+                "productos",
+                "ver productos",
+                "muestrame productos",
+                "ver producto",
+                "mostrar productos",
+                "Cuales son sus productos?"
+            ],
+            "responses": [
+                "Nuestros productos son los siguientes:"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tienda_horario",
+            "patterns": [
+                "horario",
+                "cual es tu horario",
+                "Cual es su horario",
+                "horas",
+                "En que horario estan",
+                "Cual es su horario?",
+                "horarios de atencion?",
+                "horarios"
+            ],
+            "responses": [
+                "Nuestros horarios de atencion son los siguiente:"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tienda_contacto",
+            "patterns": [
+                "contactarlos",
+                "datos de contacto",
+                "comunicarme con contactos",
+                "como comunicarlos?",
+                "Como puedo contactarlos?",
+                "contactar",
+                "contacto"
+            ],
+            "responses": [
+                "Nuestros medios de contacto son los siguientes:"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tienda_reserva",
+            "patterns": [
+                "Quiero reservar mi producto",
+                "Quiero hacer una reserva",
+                "Necesito reservar un articulo",
+                "Quiero asegurarme un producto",
+                "Guarda un producto para mi",
+                "Como hago una reserva?",
+                "Como reservo un articulo?",
+                "Puedo reservar un producto?",
+                "Quiero reservar",
+                "Guardame un producto"
+            ],
+            "responses": [
+                "Navegando al modulo de reserva de producto...\nPor favor, indicame tu nombre completo y presionar enviar"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tienda_informacion",
+            "patterns": [
+                "Informacion",
+                "mas informacion",
+                "informacion de la tienda",
+                "Informacion sobre ustedes",
+                "Info",
+                "Decirme informacion"
+            ],
+            "responses": [
+                "Nuestra informacion es la siguiente."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "opciones",
+            "patterns": [
+                "Como ayudas?",
+                "Que haces?",
+                "opciones",
+                "Explicame",
+                "Guiame",
+                "Ayudame",
+                "ayuda",
+                "ayud"
+            ],
+            "responses": [
+                "Puedo guiarte a traves de los productos, ubicaciones y horarios de atencion, asi como asistirte para reservar una compra y guardar el pedido para ti",
+                "Estoy aqui para proporcionarte informacion sobre nuestra empresa y productos."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gracias",
+            "patterns": [
+                "Gracias",
+                "util",
+                "Genial",
+                "Te lo agradezco",
+                "Estoy agradecido",
+                "Eres increible",
+                "Que amable",
+                "Te debo una",
+                "Te lo agradezco"
+            ],
+            "responses": [
+                "En cualquier momento. Siempre aqui para ti.",
+                "Es un placer poder asistirte.",
+                "No hay de que. Siempre a tu servicio.",
+                "No hay problema Estoy aqui para responder tus preguntas.",
+                "Mil gracias a ti por confiar en mi",
+                "No dudes en preguntar en cualquier momento. Es un placer",
+                "De nada Estoy aqui para brindarte asistencia.",
+                "Gracias a ti por confiar en mi. Cualquier cosa que necesites, aqui estoy",
+                "No hay problema en absoluto. Estoy aqui para ti",
+                "Estoy contento de ser util. Siempre a tu servicio"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Xiao",
+                "Chao",
+                "Adios",
+                "Nos vemos",
+                "Hablamos",
+                "Hasta luego",
+                "Hasta la proxima"
+            ],
+            "responses": [
+                "Nos vemos",
+                "Que tengas un buen dia",
+                "Vuelve pronto",
+                "Adios."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Disculpa, no logro comprender tu pregunta. Podrias reformularla?",
+                "No puedo procesar eso con claridad. Puedes explicarlo de manera diferente?"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
