@@ -38,4 +38,4 @@ Paso 3: Reconocer modelo, lo que permite realizar "revisar el archivo resource/t
 
 # Chat Bot
 
-![chatBot](https://user-images.githubusercontent.com/97413969/220771701-bf1030fa-3cef-4673-aa02-65bda9f2c67a.PNG)
+![GuitarSound ChatBot](https://github.com/BryanDaniellAR/python_flask_chatbot_v2.0_2023/assets/97413969/8edb19bc-c764-49ef-ba97-6804d2b59943)
