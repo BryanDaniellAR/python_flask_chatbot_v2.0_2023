@@ -12,7 +12,7 @@ ChatBot para una tienda de guitarras llamado "GuitarSound"
 
 # Ejecución
 
-Paso 1: pip install -r requirements.txt
+Paso 1: pip install -r requeriments.txt
 
 Paso (Opcional): Si ha modificado el archivo "resource/training/data.json". Ejecutar el comando: py utils/training.py
 
